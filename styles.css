@@ -1,9 +1,9 @@
-.demo-layout-transparent {
-  background: url('../assets/demos/transparent.jpg') center / cover;
+h1 {
+    text-align: center;
+    text-align: center;
+margin-bottom: 0;
+margin-top: 0;
 }
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  /* This background is dark, so we set text to white. Use 87% black instead if
-     your background is light. */
-  color: white;
+p {
+    text-align: center;
 }
