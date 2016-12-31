@@ -1,3 +1,25 @@
+table.mdl-data-table.mdl-js-data-table.mdl-data-table--selectable.mdl-shadow--2dp.is-upgraded {
+    margin: auto;
+    width: 50%;
+}
+
+.mdl-cell.mdl-cell--12-col {
+    text-align: center;
+}
+
+.mdl-textfield {
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 350px;
+max-width: 100%;
+margin: 0 105px !important;
+  padding: 20px 0;
+}
+
+
+
 h1 {
     text-align: center;
     text-align: center;
@@ -6,4 +28,34 @@ margin-top: 0;
 }
 p {
     text-align: center;
+    margin: auto !important;
+    width: 400px;
+}
+.mdl-cell.mdl-cell--6-col {
+    /* width: calc(50% - 16px); */
+    text-align: center;
+        background: rgba(191, 191, 191, 0.4);
+}
+.mdl-textfield__input {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    display: block;
+    font-size: 20px;
+    font-family: "Helvetica","Arial",sans-serif;
+    margin: 0;
+    padding: 4px 0;
+    width: 100%;
+    background: 0 0;
+    text-align: left;
+    color: inherit;
+}
+.mdl-textfield {
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    max-width: 100%;
+    margin: 0 15px;
+    padding: 20px 0;
 }

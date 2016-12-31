@@ -6,7 +6,7 @@
 <title>Mark H</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-indigo.min.css" />
-<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 
@@ -15,60 +15,159 @@
   <!-- Simple header with fixed tabs. -->
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
               mdl-layout--fixed-tabs">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-
-      </div>
+              <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row"> Mark H
+        <!-- Title --></div>
       <!-- Tabs -->
       <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
         <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Meta</a>
         <a href="#fixed-tab-2" class="mdl-layout__tab">Style Sheets</a>
         <a href="#fixed-tab-3" class="mdl-layout__tab">Scripts</a>
-          <a href="#fixed-tab-3" class="mdl-layout__tab">Download</a>
+          <a href="#fixed-tab-3" class="mdl-layout__tab">Export</a>
       </div>
     </header>
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Menu</span>
 
-    <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-    </nav>
-    </div>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">About</span>
+        <nav class="mdl-navigation">
+      <p>Hello There</p>
+
+        </nav>
+   </div>
+
+
     <main class="mdl-layout__content">
-      <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
-        <div class="page-content"><!-- Your content goes here -->
+
+
+<section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+
+
+  <div class="page-content"><!-- Your content goes here -->
 
   <!-- Meta -->
-  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--12-col">
-      <h1>Mark H</h1>
+      <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--12-col">
+            <h1>Mark H</h1>
+          </div>
+
+          <div class="mdl-cell mdl-cell--12-col">
+          <p> Mark H is a project which generates linked HTML, stylesheets and scripts. Just type in the meta data, select the stylesheets required and type in your custom CDN links. </p>
+          </div>
+
+          <div class="mdl-cell mdl-cell--12-col">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                <input class="mdl-textfield__input" type="text" id="sample3">
+                <label class="mdl-textfield__label" for="sample3">Project Name</label>
+              </div>
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="text" id="sample3">
+                  <label class="mdl-textfield__label" for="sample3">Author</label>
+                </div>
+
+
+                <div class="mdl-textfield mdl-js-textfield">
+        <textarea class="mdl-textfield__input" type="text" rows= "2" id="sample5" ></textarea>
+        <label class="mdl-textfield__label" for="sample5">Description</label>
       </div>
-        <div class="mdl-cell mdl-cell--4-col">
-        </div>
-        <div class="mdl-cell mdl-cell--4-col">
-      <p> Mark H is a project which generates linked HTML, stylesheets and scripts. Just type in the meta data, select the stylesheets required and type in your custom CDN links. </p>
-      </label>
-</div>
-<div class="mdl-cell mdl-cell--4-col">
-</div>
-</div>
-<div class="mdl-grid">
-<div class="mdl-cell mdl-cell--4-col">6</div>
-<div class="mdl-cell mdl-cell--6-col">4</div>
-<div class="mdl-cell mdl-cell--2-col">2</div>
-</div>
+
+          </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
       </section>
       <section class="mdl-layout__tab-panel" id="fixed-tab-2">
-        <div class="page-content"><!-- Your content goes here --></div>
+        <div class="page-content"><!-- Your content goes here -->
+              <div class="mdl-grid">
+          <div class="mdl-cell mdl-cell--12-col">
+            <h1>Style It</h1>
+          </div>
+          <div class="mdl-cell mdl-cell--12-col">
+          <p> Mark H is a project which generates linked HTML, stylesheets and scripts. Just type in the meta data, select the stylesheets required and type in your custom CDN links. </p>
+          </div>
+
+
+</div>
+<div class="mdl-grid">
+
+       <div class="mdl-cell mdl-cell--12-col">
+          <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+            <thead>
+              <tr>
+                <th class="mdl-data-table__cell--non-numeric">CSS</th>
+                <th>Version</th>
+                <th>Size</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Material Design Lite</td>
+                <td>3.1.0</td>
+                <td>128 KB</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Materialize CSS</td>
+                <td>1.10</td>
+                <td>12 KB</td>
+              </tr>
+              <tr>
+                <td class="mdl-data-table__cell--non-numeric">Animation CSS</td>
+                <td>10</td>
+                <td>98 KB</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+    </div>
       </section>
       <section class="mdl-layout__tab-panel" id="fixed-tab-3">
-        <div class="page-content"><!-- Your content goes here --></div>
+        <div class="page-content"><!-- Your content goes here -->
+
+          <div class="mdl-grid">
+              <div class="mdl-cell mdl-cell--12-col">
+                <h1>Script>/</h1>
+              </div>
+              <div class="mdl-cell mdl-cell--12-col">
+              <p> Mark H is a project which generates linked HTML, stylesheets and scripts. Just type in the meta data, select the stylesheets required and type in your custom CDN links. </p>
+              </div>
+
+          </div>
+          <div class="mdl-grid">
+
+<div class="mdl-cell mdl-cell--4-col"></div>
+
+<div class="mdl-cell mdl-cell--12-col">
+  <form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+      <input class="mdl-textfield__input" type="text" id="sample1">
+      <label class="mdl-textfield__label" for="sample1">CDN</label>
+    </div>
+  </form>
+  <form action="#">
+    <div class="mdl-textfield mdl-js-textfield">
+      <input class="mdl-textfield__input" type="text" id="sample1">
+      <label class="mdl-textfield__label" for="sample1">Custom script name</label>
+    </div>
+  </form></div>
+
+<div class="mdl-cell mdl-cell--12-col"></div>
+
+
+
+        </div>
       </section>
       <section class="mdl-layout__tab-panel is-active" id="fixed-tab-4">
         <div class="page-content"><!-- Your content goes here --></div>
