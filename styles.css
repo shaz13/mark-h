@@ -1,3 +1,26 @@
+.mdl-button--icon .mdl-button__ripple-container {
+    border-radius: 50%;
+    -webkit-mask-image: -webkit-radial-gradient(circle,#fff,#673AB7);
+}
+.mdl-textfield.mdl-js-textfield.cdn.is-upgraded {
+    position: relative;
+    font-size: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 600px;
+    max-width: 50%;
+    margin: 0 15px;
+    padding: 20px 0;
+}
+button#add {
+    vertical-align: middle;
+    margin: 12px 10px auto;
+}
+button#remove {
+    vertical-align: middle;
+    margin: 12px 10px auto;
+        background: #e02121;
+}
 table.mdl-data-table.mdl-js-data-table.mdl-data-table--selectable.mdl-shadow--2dp.is-upgraded {
     margin: auto;
     width: 50%;
