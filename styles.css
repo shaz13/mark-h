@@ -1,7 +1,39 @@
-.mdl-button--icon .mdl-button__ripple-container {
-    border-radius: 50%;
-    -webkit-mask-image: -webkit-radial-gradient(circle,#fff,#673AB7);
+.mdl-textfield__input {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    display: block;
+    font-size: 20px;
+    font-family: "Helvetica","Arial",sans-serif;
+    margin: 0;
+    padding: 4px 0;
+    width: 100%;
+    background: 0 0;
+    text-align: center;
+    color: inherit;
 }
+
+
+button.mdl-button.mdl-js-button.mdl-button--fab.mdl-js-ripple-effect.mdl-button--colored {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
+.mdl-textfield__label {
+    bottom: 0;
+    color: rgba(169, 162, 162, 0.99);
+    font-size: 15px;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    top: 24px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+}
+
 .mdl-textfield.mdl-js-textfield.cdn.is-upgraded {
     position: relative;
     font-size: 16px;
@@ -12,15 +44,7 @@
     margin: 0 15px;
     padding: 20px 0;
 }
-button#add {
-    vertical-align: middle;
-    margin: 12px 10px auto;
-}
-button#remove {
-    vertical-align: middle;
-    margin: 12px 10px auto;
-        background: #e02121;
-}
+
 table.mdl-data-table.mdl-js-data-table.mdl-data-table--selectable.mdl-shadow--2dp.is-upgraded {
     margin: auto;
     width: 50%;
@@ -43,22 +67,12 @@ margin: 0 105px !important;
 
 
 
-h1 {
-    text-align: center;
-    text-align: center;
-margin-bottom: 0;
-margin-top: 0;
-}
 p {
     text-align: center;
     margin: auto !important;
     width: 400px;
 }
-.mdl-cell.mdl-cell--6-col {
-    /* width: calc(50% - 16px); */
-    text-align: center;
-        background: rgba(191, 191, 191, 0.4);
-}
+
 .mdl-textfield__input {
     border: none;
     border-bottom: 1px solid rgba(0,0,0,.12);
@@ -71,14 +85,4 @@ p {
     background: 0 0;
     text-align: left;
     color: inherit;
-}
-.mdl-textfield {
-    position: relative;
-    font-size: 16px;
-    display: inline-block;
-    box-sizing: border-box;
-    width: 300px;
-    max-width: 100%;
-    margin: 0 15px;
-    padding: 20px 0;
 }
